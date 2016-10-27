@@ -31,6 +31,7 @@ namespace Sandbox
 
         // If a Car object corresponding to the given license plate exists, return it.
         // Otherwise, return null
+        // jeg synes han skriver mærkligt
         public Car LookupCar(String licensePlate)
         {
             if (carList.ContainsKey(licensePlate))
